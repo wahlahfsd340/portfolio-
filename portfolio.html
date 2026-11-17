@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Saad Babar | MERN Stack Developer</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+    
+</head>
+
+<body>
+    <div id="bar"></div>
+    <canvas id="bg"></canvas>
+    <nav><b>SB.dev</b>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+        <div class="wrap">
+            <div>
+                <p class="hi">Hello, I’m</p>
+                <h1>SAAD BABAR</h1>
+                <p class="role">I am a <span id="typed"></span><i></i></p>
+                <p class="lead">I am a MERN stack web developer. I build fast, good-looking full-stack apps with
+                    MongoDB, Express, React and Node.js.</p>
+                <div class="btns"><a class="btn f" href="#projects">View my work</a><a class="btn o"
+                        href="#contact">Hire me</a></div>
+            </div>
+            <div class="avatar">
+                <div><span>SB</span></div>
+                <span class="orb" style="background:#16e0bd">M</span><span class="orb"
+                    style="background:#ff9f1c;animation-delay:-2.2s">E</span><span class="orb"
+                    style="background:#4d7cff;animation-delay:-4.5s;color:#fff">R</span><span class="orb"
+                    style="background:#ff3d81;animation-delay:-6.7s">N</span>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="wrap">
+            <h2 class="rv">About me</h2>
+            <p class="sub rv">A developer who likes turning ideas into working products.</p>
+            <div class="about">
+                <div class="rv">
+                    <p>My name is Saad Babar and I am a MERN stack developer. I design the interface in React, build the
+                        API in Node and Express, and store data in MongoDB.</p>
+                    <p>I care about clean code, responsive layouts and smooth animations. Every project I build is meant
+                        to be used on a phone as comfortably as on a laptop.</p>
+                </div>
+                <div class="stats rv">
+                    <div class="stat"><strong data-n="15">0</strong>Projects</div>
+                    <div class="stat"><strong data-n="4">0</strong>Core technologies</div>
+                    <div class="stat"><strong data-n="100">0</strong>% Responsive</div>
+                    <div class="stat"><strong data-n="2">0</strong>Years learning</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="wrap">
+            <h2 class="rv">Skills</h2>
+            <p class="sub rv">The tools I use to build full-stack apps.</p>
+            <div class="skills" id="sk"></div>
+            <div class="chips rv" id="chips"></div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="wrap">
+            <h2 class="rv">Projects</h2>
+            <p class="sub rv">A few things I have built with the MERN stack.</p>
+            <div class="grid" id="pg"></div>
+        </div>
+    </section>
+
+    <section id="journey">
+        <div class="wrap">
+            <h2 class="rv">My journey</h2>
+            <p class="sub rv">How I got here.</p>
+            <div class="tl">
+                <div class="ti rv" style="--cl:#ff3d81"><small>Step 1</small>
+                    <h3>Web basics</h3>
+                    <p>Learned HTML, CSS and JavaScript and built my first responsive pages.</p>
+                </div>
+                <div class="ti rv" style="--cl:#ff9f1c"><small>Step 2</small>
+                    <h3>React and front-end</h3>
+                    <p>Built reusable components, hooks and state management in React.</p>
+                </div>
+                <div class="ti rv" style="--cl:#16e0bd"><small>Step 3</small>
+                    <h3>Node, Express and MongoDB</h3>
+                    <p>Created REST APIs with authentication and database models.</p>
+                </div>
+                <div class="ti rv" style="--cl:#4d7cff"><small>Now</small>
+                    <h3>Full-stack MERN projects</h3>
+                    <p>Shipping complete apps from database to deployment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="wrap">
+            <h2 class="rv">Contact</h2>
+            <p class="sub rv">Have a project or a job in mind? Send me a message.</p>
+            <form class="rv" id="f"><input required placeholder="Your name"><input required type="email"
+                    placeholder="Your email"><textarea required rows="5" placeholder="Your message"></textarea><button
+                    class="btn f">Send message</button>
+                <p id="msg" role="status"></p>
+            </form>
+            <div class="soc rv"><a style="--cl:#ff3d81" href="#">GitHub</a><a style="--cl:#4d7cff"
+                    href="#">LinkedIn</a><a style="--cl:#16e0bd" href="#">Email</a><a style="--cl:#ff9f1c"
+                    href="#">WhatsApp</a></div>
+        </div>
+    </section>
+
+    <footer>© 2026 Saad Babar. Built with HTML, CSS and JavaScript.</footer>
+<script src="portfolio.js"></script>
+    
+</body>
+
+</html>
